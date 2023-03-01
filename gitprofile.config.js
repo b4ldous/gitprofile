@@ -11,7 +11,7 @@ const config = {
     },
   },
   social: {
-    linkedin: '',
+    linkedin: 'ubaldo-barranco-osorio',
     twitter: '',
     mastodon: '',
     facebook: '',
@@ -19,12 +19,12 @@ const config = {
     dribbble: '',
     behance: '',
     medium: '',
-    dev: '',
+    dev: 'b4ldous',
     stackoverflow: '', // format: userid/username
     skype: '',
     telegram: '',
     website: '',
-    phone: '',
+    phone: '+52 2227471251',
     email: 'baldous@protonmail.com',
   },
   resume: {
@@ -44,20 +44,7 @@ const config = {
 
   ],
   experiences: [
-    {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
-      to: 'Present',
-      companyLink: 'https://example.com',
-    },
-    {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
-    },
+    
   ],
   /* certifications: [
     {
@@ -68,18 +55,7 @@ const config = {
     },
   ], */
   education: [
-    {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
-    },
-    {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
-    },
+    
   ],
 
   // To hide the `My Projects` section, keep it empty.
@@ -102,11 +78,11 @@ const config = {
   // Display blog posts from your medium or dev account. (Optional)
   blog: {
     source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
-    limit: 2, // How many posts to display. Max is 10.
+    username: 'b4ldous', // to hide blog section, keep it empty
+    limit: 4, // How many posts to display. Max is 10.
   },
   googleAnalytics: {
-    id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
+    id: 'G-X6ZYKC7F13', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
   },
   // Track visitor interaction and behavior. https://www.hotjar.com
   hotjar: {
@@ -114,7 +90,7 @@ const config = {
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'winter',
+    defaultTheme: 'emerald',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
