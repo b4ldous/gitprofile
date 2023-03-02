@@ -92,6 +92,13 @@ const config = {
       imageUrl: 'https://via.placeholder.com/250x250',
       link: 'https://fir-react-50f47.web.app/',
     },
+    {
+      title: 'Gradients Generator',
+      description:
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+      imageUrl: 'https://via.placeholder.com/250x250',
+      link: 'https://warm-smakager-5e994b.netlify.app/',
+    },
   ],
   // Display blog posts from your medium or dev account. (Optional)
   blog: {
