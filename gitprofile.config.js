@@ -3,7 +3,7 @@
 const config = {
   github: {
     username: 'b4ldous', // Your GitHub org/user name. (Required)
-    sortBy: 'stars', // stars | updated
+    sortBy: 'updated', // stars | updated
     limit: 10, // How many projects to display.
     exclude: {
       forks: false, // Forked projects will not be displayed if set to true.
@@ -39,6 +39,8 @@ const config = {
     'Css',
     'Javascript',
     'ReactJs',
+    'React Router Dom',
+    'Recharts',
     'MaterialUI v5',
     'React Bootstrap'
 
@@ -61,18 +63,34 @@ const config = {
   // To hide the `My Projects` section, keep it empty.
   externalProjects: [
     {
-      title: 'Project Name',
+      title: 'MUI components',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
       imageUrl: 'https://via.placeholder.com/250x250',
-      link: 'https://example.com',
+      link: 'https://spiffy-moonbeam-602c69.netlify.app/',
     },
     {
-      title: 'Project Name',
+      title: 'Static WebSite',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
       imageUrl: 'https://via.placeholder.com/250x250',
-      link: 'https://example.com',
+      link: 'https://astounding-profiterole-356963.netlify.app/',
+    },
+
+    {
+      title: 'Mexican Population',
+      description:
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+      imageUrl: 'https://via.placeholder.com/250x250',
+      link: 'https://cerulean-cascaron-35df7e.netlify.app',
+    },
+
+    {
+      title: 'Hacker News',
+      description:
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+      imageUrl: 'https://via.placeholder.com/250x250',
+      link: 'https://fir-react-50f47.web.app/',
     },
   ],
   // Display blog posts from your medium or dev account. (Optional)
