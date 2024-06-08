@@ -33,20 +33,38 @@ const CONFIG = {
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
-          title: 'Project Name',
+          title: 'Gradient Generator',
           description:
             'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
           imageUrl:
             'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+          link: 'https://warm-smakager-5e994b.netlify.app/',
         },
         {
-          title: 'Project Name',
+          title: 'Landing page of a small business',
           description:
             'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
           imageUrl:
             'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+          link: 'https://astounding-profiterole-356963.netlify.app/',
+        },
+
+        {
+          title: 'Data visualization with recharts consuming INEGI API',
+          description:
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+          imageUrl:
+            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
+          link: 'https://cerulean-cascaron-35df7e.netlify.app/',
+        },
+
+         {
+          title: 'Collection of material UI components',
+          description:
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+          imageUrl:
+            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
+          link: 'https://spiffy-moonbeam-602c69.netlify.app/',
         },
       ],
     },
@@ -57,7 +75,7 @@ const CONFIG = {
     imageURL: '',
   },
   social: {
-    linkedin: 'baosub',
+    linkedin: '',
     twitter: '',
     mastodon: '',
     researchGate: '',
@@ -70,13 +88,13 @@ const CONFIG = {
     dribbble: '',
     behance: '',
     medium: '',
-    dev: '',
+    dev: 'baosub',
     stackoverflow: '', // example: '1/jeff-atwood'
     skype: '',
     telegram: '',
     website: '',
-    phone: '',
-    email: '',
+    phone: '+52 2224741140',
+    email: 'barrosoub@gmail.com',
   },
   resume: {
     fileUrl:
@@ -88,23 +106,12 @@ const CONFIG = {
     'JavaScript',
     'Typescript',
     'React',
+    'NextJs',
+    
   
   ],
   experiences: [
-    {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
-      to: 'Present',
-      companyLink: 'https://example.com',
-    },
-    {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
-    },
+   
   ],
   certifications: [
     {
